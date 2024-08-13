@@ -52,3 +52,25 @@
 
 // --------------------
 
+function morning(){
+    document.getElementById("demo").innerHTML = "GOOD MORNING"
+    document.getElementById("mode").style.background = "skyblue"
+    document.getElementById("mode").style.color = "black"
+}
+function afternoon(){
+    document.getElementById("demo").innerHTML = "GOOD AFTERNOON"
+    document.getElementById("mode").style.background = "#f9f5a2"
+    document.getElementById("mode").style.color = "black"
+}
+function evening(){
+    document.getElementById("demo").innerHTML = "GOOD EVENING"
+    document.getElementById("mode").style.background = "goldenrod"
+    document.getElementById("mode").style.color = "black"
+}
+function night(){
+    document.getElementById("demo").innerHTML = "GOOD NIGHT"
+    document.getElementById("mode").style.background = "black"
+    document.getElementById("mode").style.color = "white"
+}
+
+

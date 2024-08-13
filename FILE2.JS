@@ -14,5 +14,6 @@ function calculate() {
         result = num1 / num2;
     }
 
-    document.getElementById("result").innerText = "Result: " + result;
+    // document.getElementById("result").innerText = "Result: " + result;
+    document.getElementById("result").innerHTML = `<h1>Result: ${result}</h1>`
 }
