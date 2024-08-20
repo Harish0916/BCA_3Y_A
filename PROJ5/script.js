@@ -33,7 +33,7 @@ var students = {
 // console.log(students);
 
 let show = `
-<div style="text-align:center">
+<div class="section">
     <img src=${students.img} height="100px" width="100px">
     <h1 style="background:Tomato; color:white;">Student Name: ${students.sname}</h1><hr>
     <h2>ID: ${students.id}</h2>
