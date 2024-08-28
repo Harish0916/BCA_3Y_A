@@ -207,12 +207,30 @@
 // console.log(x); // ACCESS
 // var x = 12  // INITIALIZATION
 
-x=12
-console.log(x); // ACCESS
-var x  // INITIALIZATION
+// x=12
+// console.log(x); // ACCESS
+// var x  // INITIALIZATION
 
+//-----------------
 
+// console.log(121+13);        
+// console.log('121'+'13');
 
+// console.log(121-13);
+// console.log('121'-'13');
+
+// console.log(121*13);
+// console.log('121'*'13');
+// console.log('hi'*'13');
+
+// console.log(121/13);
+// console.log('121'/'13');
+
+//-------------
+
+// console.log("12"-10*"3");
+
+// --------------
 
 
 
