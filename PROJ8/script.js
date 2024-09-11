@@ -35,8 +35,85 @@
 
 // for-of loop
 
-let arr = ['apple','banana','cherry', 'pineapple']
+// let arr = ['apple','banana','cherry', 'pineapple']
 
-for(let item of arr){
-    console.log(item);
-}
+// for(let item of arr){
+//     console.log(item);
+// }
+
+// -------------------- filter method
+
+
+// let arr = [10,20,30,40,55,67,89]
+
+// let remove = i => i!=55
+// let filterArr = arr.filter(remove)
+
+// document.write(filterArr)
+
+
+// -------- find method
+
+// let arr = [10,20,30,40,55,67,89]
+
+// arr.find((i, index) => i==55 && document.write(`find ${i} at index ${index}`))
+
+// document.write(findArr)
+
+// function myfun(arr){
+//     return arr*10;
+// }
+// let arr=[10,20,30,40,50]
+// let arr1=arr.map(myfun)
+
+
+// console.log(arr1)
+
+//---------------------
+
+// const numArr = [10, 20, 30]
+// console.log(numArr.reduce((acc, item)=> acc+item, 0));
+
+// OR
+
+// acc=0
+// const numArr = [10, 20, 30]
+// for (const item of numArr){
+//     acc = acc + item
+// }
+// console.log(acc);
+
+// OR
+
+// const numArr = [10, 20, 30]
+// const red = (acc, item)=> acc+item
+// console.log(numArr.reduce(red, 0));
+
+// ------------------------
+// Default Set to Prevent update or delete
+let book = {
+    title: "1984",
+    author: "George Orwell"
+};
+console.log(book.publisher); // undefined
+// undefined
+
+Object.defineProperty(book, "publisher", {
+    value: "Sumita Arora",
+    configurable: false
+});
+book.publisher = "Sumita Gupta"
+console.log(book);
+
+delete book.publisher; // TypeError: Cannot delete property 'year' of #<Object>
+console.log(book);
+
+
+
+
+
+
+
+
+
+
