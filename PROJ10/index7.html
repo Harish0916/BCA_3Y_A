@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>class="colors">Colors</title>
+    <style>
+        .myclass {
+            color: red;
+        }
+    </style>
+  </head>
+  <body>
+    <!-- <h1>JavaScript Query Selector</h1> -->
+    <h1 class="myClass">Class 1</h1>
+    <p class="myClass">Myclass</p>
+    <div id="firstid">
+        <div>
+            <p>It is the div p paragraph</p>
+        </div>
+      <p class="pclass">div p class</p>
+    </div>
+    <p id="myid">It is p id</p>
+    <div id="divid">It is div id</div>
+    <script>
+      //Element selector
+      var e = document.querySelector("h1");
+      e.classList.remove('myclass')
+    </script>
+  </body>
+</html>
